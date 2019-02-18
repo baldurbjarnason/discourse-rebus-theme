@@ -22,4 +22,18 @@
         );
     });
 
+  api.registerConnectorClass('below-site-header', 'rebus-header', {
+    shouldRender(args, component) {
+      return true;
+    },
+    setupComponent(args, component) {
+      component.set("displayRebusHeader", true);
+    }
+  });
+</script>
+
+<script type='text/x-handlebars' data-template-name='/connectors/below-site-header/rebus-header'>
+{{#if displayRebusHeader }}
+  <h1>HELLO WORLD</h1>
+{{/if}}
 </script>
