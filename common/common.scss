@@ -110,3 +110,27 @@ nav.post-controls button.create {
     border-bottom: none;
   }
 }
+
+// Header Menu
+
+#nav-link-container {
+    display: inline;
+
+    li{
+        display: inline-block;
+        float: left;
+    }
+
+    a {
+        color: $header_primary;
+        padding: 23px 25px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 765px){
+    #nav-link-container {
+        display: none;
+    }
+}
+

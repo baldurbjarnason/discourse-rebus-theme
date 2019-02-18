@@ -1,0 +1,3 @@
+header_menu_list:
+    default: "Link1|URL,Link2|URL2"
+    description: "Link|URL pairs separated by commas for header menu" 

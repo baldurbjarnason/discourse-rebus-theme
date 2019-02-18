@@ -3,4 +3,23 @@
   api.replaceIcon('notification.liked', 'far-heart');
   api.replaceIcon('notification.liked_2', 'far-heart');
   api.replaceIcon('notification.liked_many', 'far-heart');
+
+
+  api.decorateWidget("header-buttons:before", helper => {
+        const menu = [];
+        const menuItems = settings.header_menu_list.split(",");
+        menuItems.forEach((item) => {
+            const menuItem = item.split("|");
+            menu.push(helper.h("li.hidden-for-mobile",
+                helper.h("a.nav-link", {
+                    href: menuItem[1],
+                    text: menuItem[0]
+                })
+            ));
+        });
+        return helper.h("div.header-links",
+            helper.h("ul#nav-link-container", menu)
+        );
+    });
+
 </script>
