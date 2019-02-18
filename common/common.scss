@@ -88,6 +88,24 @@ nav.post-controls button.create {
   -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
   -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
   box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+  thead {
+    background-color: #003e5d;
+    border-radius: 10px;
+    text-transform: uppercase;
+    th {
+      color: #ffffff;
+      letter-spacing: 1px;
+    }
+  }
+  thead th:first-child {
+    border-radius: 10px 0 0 0;
+  }
+  thead th:last-child {
+    border-radius: 0 10px 0 0;
+  }
+  tbody {
+    border-top: none;
+  }
   tbody .topic-list-item:last-child {
     border-bottom: none;
   }
