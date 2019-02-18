@@ -65,3 +65,18 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid $tertiary;
   }
 }
+
+
+// Post Controls
+nav.post-controls button.create {
+  .d-icon-reply, &.d-hover .d-icon-reply.d-hover{
+    color: $tertiary;
+   }
+   .d-button-label {
+     color: $primary;
+   }
+}
+
+// Topic Footer Buttons
+
+#topic-footer-buttons .create .d-icon { display: none; }
