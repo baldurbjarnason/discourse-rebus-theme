@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i');
 
+$disabled: #c6c6c6;
+$rebus-blue: #007ab8;
 html {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -30,4 +32,59 @@ h6 {
 
 p {
   font-size: 16pt;
+}
+
+// Buttons
+
+.btn, .btn-default, .discourse-no-touch .btn {
+  background-color: #ffffff;
+  border: 1px solid $tertiary;
+  border-radius: 50em;
+  color: $tertiary;
+  font-size: 9pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  & .d-icon {
+    color: $tertiary;
+  }
+  &:hover, &.btn-hover {
+    background-color: $tertiary;
+    color: #ffffff;
+  }
+  &[disabled] {
+    background-color: $disabled;
+    border: 1px solid $disabled;
+    color: #ffffff;
+    & .d-icon {
+      color: #ffffff;
+    }
+  }
+}
+
+.btn-primary, .discourse-no-touch .btn-primary {
+  background-color: $tertiary;
+  color: #ffffff;
+  & .d-icon {
+    color: #ffffff;
+  }
+  &:hover, &.btn-hover {
+    background-color: $rebus-blue;
+    border: 1px solid $rebus-blue; 
+  }
+  &:active, &.btn-active {
+    background-color: $tertiary;
+    border: 1px solid $tertiary;
+  }
+}
+
+.btn-danger, .discourse-no-touch .btn-danger {
+  background-color: $danger;
+  border: 1px solid $danger;
+  color: #ffffff;
+  & .d-icon {
+    color: #ffffff;
+  }
+  &:hover, &.btn-hover {
+    border: 1px solid $tertiary;
+  }
 }
