@@ -1,0 +1,20 @@
+{
+  "name": "Rebus Theme",
+  "about_url": "",
+  "license_url": "",
+   "color_schemes": {
+       "Rebus Default": {
+          "primary": "000000",
+          "secondary": "ffffff",
+          "tertiary": "cd4b18",
+          "quaternary": "cd4b18",
+          "header_background": "ffffff",
+          "header_primary": "000000",
+          "highlight": "45a9dd",
+          "danger": "ff3b3b",
+          "success": "2ed0ac",
+          "love": "fa6c8d"
+        }
+    }
+
+}
