@@ -2,6 +2,9 @@
   "name": "Rebus Theme",
   "about_url": "https://github.com/procourse/discourse-rebus-theme",
   "license_url": "",
+  "assets": {
+    "blue_background": "assets/blue-background.svg" 
+  },
    "color_schemes": {
        "Rebus Default": {
           "primary": "000000",

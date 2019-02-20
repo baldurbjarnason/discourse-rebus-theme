@@ -137,6 +137,18 @@ nav.post-controls button.create {
 // Rebus Header
 
 .rebus-header {
-  position: relative;
-  top: 68px;
+  .header-image {
+    content: url($blue-background);
+    opacity: .7;
+    position: relative;
+    top: 5%;
+    width: 100vw;
+    z-index: -1;
+  }
+  .content {
+    display: flex;
+    position: relative;
+    top: -300px;
+    z-index: 10;
+  } 
 }
