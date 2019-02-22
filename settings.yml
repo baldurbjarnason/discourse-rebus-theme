@@ -1,3 +1,24 @@
 header_menu_list:
     default: "Link1|URL,Link2|URL2"
     description: "Link|URL pairs separated by commas for header menu" 
+header_title_text:
+    default: "Welcome to the Rebus Forum!"
+    description: "Front page header title text"
+header_subtitle_text:
+    default: "The Rebus Community is made up of faculty, students, and staff from schools, colleges, and universities around the world, along with regular people who believe that educational materials for every subject should be a free and open public resource."
+    description: "Front page header subtitle text"
+header_cta_column_title:
+    default: "Join the community by"
+    description: "Front page header call-to-action column title"
+header_primary_cta_button_text:
+    default: "Introducing Yourself"
+    description: "Front page header primary call to action button text"
+header_primary_cta_button_link:
+    default: "/"
+    description: "Front page header primary call to action button link URL"
+header_secondary_cta_button_text:
+    default: "Exploring Textbooks"
+    description: "Front page header secondary call to action button text"
+header_secondary_cta_button_link:
+    default: "/"
+    description: "Front page header secondary call to action button link URL"
