@@ -137,18 +137,37 @@ nav.post-controls button.create {
 // Rebus Header
 
 .rebus-header {
+  margin-bottom: -350px;
+  @media screen and (min-width: 1760px) {
+    margin-bottom: -550px;
+  }
+  @media screen and (min-width: 2260px) {
+    margin-bottom: -425px;
+  }
   .header-image {
-    content: url($blue-background);
-    opacity: .7;
+    background-image: url($blue-background);
+    background-repeat: no-repeat;
+    background-size: cover, 400px;
+    display: block;
+    height: 700px;
     position: relative;
-    top: 5%;
-    width: 100vw;
+    opacity: .7;
+    top: -150px;
     z-index: -1;
+    @media screen and (min-width: 1760px) {
+      background-position: 0 -200px;
+      background-size: cover, 900px;
+      height: 900px;
+
+    }
   }
   .content {
     display: flex;
     position: relative;
-    top: -300px;
+    top: -500px;
     z-index: 10;
+    @media screen and (min-width: 1760px) {
+      top: -700px;
+    }
   } 
 }
