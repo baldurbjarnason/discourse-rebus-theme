@@ -6,45 +6,52 @@
 
 
   api.decorateWidget("header-buttons:before", helper => {
-        const menu = [];
-        const menuItems = settings.header_menu_list.split(",");
-        menuItems.forEach((item) => {
-            const menuItem = item.split("|");
-            menu.push(helper.h("li.hidden-for-mobile",
-                helper.h("a.nav-link", {
-                    href: menuItem[1],
-                    text: menuItem[0]
-                })
-            ));
-        });
-        return helper.h("div.header-links",
-            helper.h("ul#nav-link-container", menu)
-        );
+      const menu = [];
+      const menuItems = settings.header_menu_list.split(",");
+      menuItems.forEach((item) => {
+          const menuItem = item.split("|");
+          menu.push(helper.h("li.hidden-for-mobile",
+	  helper.h("a.nav-link", {
+	    href: menuItem[1],
+	    text: menuItem[0]
+	  })
+      ));
     });
+    return helper.h("div.header-links",
+      helper.h("ul#nav-link-container", menu));
+  });
 
   api.registerConnectorClass('below-site-header', 'rebus-header', {
     shouldRender(args, component) {
       return true;
     },
     setupComponent(args, component) {
-      component.set("displayRebusHeader", true);
+      const router = api.container.lookup('router:main');
+      router.on('willTransition', () => {
+          component.set('displayRebusHeader', false);
+      });
+      api.onPageChange((url, title) => {
+          if (url == "/") {
+	    component.set("displayRebusHeader", true);
+	  }
+      });
     }
   });
 </script>
 
 <script type='text/x-handlebars' data-template-name='/connectors/below-site-header/rebus-header'>
-{{#if displayRebusHeader }}
-  <div class='header-image' />
-  <div class='wrap content'>
-      <div class='info-column'>
-	<h1>{{theme-setting 'header_title_text'}}</h1>
-        <p>{{theme-setting 'header_subtitle_text'}}</p>
-      </div>
-      <div class='cta-column'>
-	<p>{{theme-setting 'header_cta_column_title'}}</p>
-	<a href="{{theme-setting 'header_primary_cta_button_link'}}" class='btn btn-cta-primary'>{{theme-setting 'header_primary_cta_button_text'}}</a>
-	<a href="{{theme-setting 'header_secondary_cta_button_link'}}" class='btn btn-cta-secondary'>{{theme-setting 'header_secondary_cta_button_text'}}</a>
-      </div>
-  </div>
-{{/if}}
+    <div class="header-wrapper {{unless displayRebusHeader 'hidden'}}">
+	<div class='header-image'></div>
+	<div class='wrap content'>
+	    <div class='info-column'>
+                <h1>{{theme-setting 'header_title_text'}}</h1>
+	        <p>{{theme-setting 'header_subtitle_text'}}</p>
+	    </div>
+	    <div class='cta-column'>
+                <p>{{theme-setting 'header_cta_column_title'}}</p>
+	        <a href="{{theme-setting 'header_primary_cta_button_link'}}" class='btn btn-cta-primary'>{{theme-setting 'header_primary_cta_button_text'}}</a>
+                 <a href="{{theme-setting 'header_secondary_cta_button_link'}}" class='btn btn-cta-secondary'>{{theme-setting 'header_secondary_cta_button_text'}}</a>
+	    </div>
+        </div>
+    </div>
 </script>
