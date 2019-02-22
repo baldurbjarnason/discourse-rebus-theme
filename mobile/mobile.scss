@@ -1,0 +1,35 @@
+.mobile-view {
+  .rebus-header {
+    margin-bottom: -550px;
+    @media screen and (max-width: 340px) {
+      margin-bottom: -600px;
+    }
+    .header-image {
+      position: static;
+      @media screen and (min-width: 440px) {
+        background-position: 0 -50px;
+      }
+      @media screen and (min-width: 534px) {
+        background-position: 0 -100px;
+      }
+      @media screen and (min-width: 623px) {
+        background-position: 0 -200px;
+      }
+    }
+    .content {
+      flex-direction: column;
+      top: -600px;
+      .info-column, .cta-column {
+	margin-bottom: 20px;
+	padding: 0 25px;
+	top: 0;
+        width: calc(100vw - 50px);
+      }
+      @media screen and (min-width: 320px) {
+        .cta-column {
+	  top: -35px;
+	}
+      }
+    }
+  }
+}
