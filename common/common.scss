@@ -214,7 +214,7 @@ body.category-header[class*="category-"]{
     background-size: cover, 400px;
     height: 400px;
   @media screen and (min-width: 768px) {
-    background-position: 0 -275px;
+    background-position: 0 -375px;
   }
   @media screen and (min-width: 2560px) {
     background-position: 0 -600px;
@@ -265,7 +265,7 @@ div[class^="category-title-header"] {
             border-top-width: 10px;
             display: block;
             height: 200px;
-            padding: 40px 20px;
+            padding: 35px 20px;
             width: 31%;
             h3 {
                 font-family: 'Nunito Sans', sans-serif;

@@ -33,6 +33,14 @@
     }
   }
   // Category Header
+  body.category-header[class*="category-"] {
+    @media screen and (max-width: 768px) {
+        background-position: 0 -225px;
+    }
+    @media screen and (min-width: 768px) {
+       background-position: 0 -275px;
+    }
+  }
   div[class^="category-title-header"] {
     margin-bottom: 225px;
     .category-title-contents {
