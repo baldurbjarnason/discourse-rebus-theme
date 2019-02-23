@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   &:hover, &.btn-hover {
     background-color: $rebus-blue;
-    border: 1px solid $rebus-blue; 
+    border: 1px solid $rebus-blue;
   }
   &:active, &.btn-active {
     background-color: $tertiary;
@@ -203,7 +203,7 @@ nav.post-controls button.create {
 	color: #016599;
       }
     }
-  } 
+  }
 }
 
 // Category Headers
@@ -250,4 +250,44 @@ div[class^="category-title-header"] {
  #main-outlet {
      padding-top: 20px;
  }
+}
+// Rebus Footer
+
+.rebus-footer{
+  .newsletter-signup{
+      margin: auto;
+      width: 37%;
+      padding: 56px 32px 56px 32px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 12px 0px;
+      margin-bottom: 30px;
+      font-family: 'Nunito Sans', sans-serif;
+
+      h1{
+          font-family: 'Nunito Sans', sans-serif;
+      }
+      .newsletter-form{
+          input{
+              width: 64%;
+              border-radius: 3px;
+              padding: 12px 0 13px 0;
+              margin-right: 2%;
+          }
+          button{
+              width: 32%;
+              padding: 14px 0 14px 0;
+              border: 1px solid #cd4b18;
+              border-radius: 50em;
+              font-size: 11pt;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              background-color: #cd4b18;
+              color: #ffffff;
+          }
+          button:hover{
+              background-color: white;
+              color: #cd4b18;
+          }
+      }
+  }
 }
