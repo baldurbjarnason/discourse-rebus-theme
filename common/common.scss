@@ -207,14 +207,24 @@ nav.post-controls button.create {
 }
 
 // Category Headers
+body.category-header[class*="category-"]{
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+    background-position: 0 -175px;
+    background-size: cover, 400px;
+    height: 400px;
+  @media screen and (min-width: 768px) {
+    background-position: 0 -275px;
+  }
+  @media screen and (min-width: 2560px) {
+    background-position: 0 -600px;
+  }
+}
 div[class^="category-title-header"] {
   padding-top: 60px;
   display: flex;
+  margin-bottom: 175px;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 -175px;
-  background-size: cover, 400px;
-  height: 400px;
   .category-title-contents {
     padding: 40px 40px 30px;
     position: relative;
@@ -240,15 +250,4 @@ div[class^="category-title-header"] {
  #main-outlet {
      padding-top: 20px;
  }
-}
-.category-title-header {
-  &.yellow{
-        background-image: url($yellow-background);
-  }
-  &.turquoise{
-        background-image: url($turquoise-background);
-  }
-  &.orange{
-        background-image: url($orange-background);
-  }
 }

@@ -32,4 +32,13 @@
       }
     }
   }
+  // Category Header
+  div[class^="category-title-header"] {
+    margin-bottom: 225px;
+    .category-title-contents {
+      left: 0;
+      padding: 40px 25px 0 25px;
+      max-width: calc(100vw - 50px);
+    }
+  }
 }
