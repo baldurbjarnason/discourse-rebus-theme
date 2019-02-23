@@ -3,7 +3,10 @@
   "about_url": "https://github.com/procourse/discourse-rebus-theme",
   "license_url": "",
   "assets": {
-    "blue_background": "assets/blue-background.svg" 
+    "blue_background": "assets/blue-background.svg", 
+    "turquoise_background": "assets/turquoise-background.svg", 
+    "yellow_background": "assets/yellow-background.svg", 
+    "orange_background": "assets/orange-background.svg" 
   },
    "color_schemes": {
        "Rebus Default": {

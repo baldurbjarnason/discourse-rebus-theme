@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="576px" viewBox="0 0 1440 576" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>BG - Turquoise Pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 1440 0 1440 470.3355 1210 533 481 576 0 494"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG---Turquoise-Pattern">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="BG-Pattern" mask="url(#mask-2)" fill-rule="nonzero">
+                <g transform="translate(-430.000000, -458.000000)" id="Shape">
+                    <polygon stroke="#82DFCA" stroke-width="1.51" fill="#82DFCA" transform="translate(1511.000000, 265.500000) rotate(-180.000000) translate(-1511.000000, -265.500000) " points="1767 531 1421 3.27418093e-11 1255 313"></polygon>
+                    <polygon stroke="#76D7C1" stroke-width="1.51" fill="#76D7C1" transform="translate(1428.000000, 322.500000) rotate(-180.000000) translate(-1428.000000, -322.500000) " points="1601 645 1539 2.36468622e-11 1255 114"></polygon>
+                    <polygon stroke="#82DFCA" stroke-width="1.51" fill="#82DFCA" transform="translate(1155.000000, 322.500000) rotate(-180.000000) translate(-1155.000000, -322.500000) " points="1055 645 1317 426 993 1.45519152e-11"></polygon>
+                    <polygon stroke="#5ED6BB" stroke-width="1.51" fill="#5ED6BB" transform="translate(1480.000000, 760.500000) rotate(-180.000000) translate(-1480.000000, -760.500000) " points="1643 876 1317 531 1359 990"></polygon>
+                    <polygon stroke="#5ED6BB" stroke-width="1.51" fill="#5ED6BB" transform="translate(1827.500000, 374.500000) rotate(-180.000000) translate(-1827.500000, -374.500000) " points="2054 218 1601 268 1888 531"></polygon>
+                    <polygon stroke="#82DFCA" stroke-width="1.51" fill="#82DFCA" transform="translate(1115.500000, 707.500000) rotate(-180.000000) translate(-1115.500000, -707.500000) " points="1317 729 1031 645 914 770"></polygon>
+                    <polygon stroke="#40CCAB" stroke-width="1.51" fill="#40CCAB" transform="translate(1869.500000, 668.500000) rotate(-180.000000) translate(-1869.500000, -668.500000) " points="1601 481 1685 856 2138 806"></polygon>
+                    <polygon stroke="#5ED6BB" stroke-width="1.51" fill="#5ED6BB" transform="translate(1115.500000, 452.500000) rotate(-180.000000) translate(-1115.500000, -452.500000) " points="1238 686 1317 219 914 260"></polygon>
+                    <polygon stroke="#76D7C1" stroke-width="1.51" fill="#76D7C1" transform="translate(825.500000, 452.500000) rotate(-180.000000) translate(-825.500000, -452.500000) " points="658 686 993 344 737 219"></polygon>
+                    <polygon stroke="#3CC6A6" stroke-width="1.51" fill="#3CC6A6" transform="translate(1277.500000, 902.500000) rotate(-180.000000) translate(-1277.500000, -902.500000) " points="1644 770 911 814 1356.21477 1035"></polygon>
+                    <polygon stroke="#3ACDAB" stroke-width="1.51" fill="#3ACDAB" transform="translate(1421.000000, 817.000000) rotate(-180.000000) translate(-1421.000000, -817.000000) " points="1642 864 1200 645 1525 989"></polygon>
+                    <polygon stroke="#82DFCA" stroke-width="1.51" fill="#82DFCA" transform="translate(790.000000, 390.000000) rotate(-180.000000) translate(-790.000000, -390.000000) " points="993 524 922 219 587 561"></polygon>
+                    <polygon stroke="#3CC6A6" stroke-width="1.51" fill="#3CC6A6" transform="translate(1872.000000, 761.500000) rotate(-180.000000) translate(-1872.000000, -761.500000) " points="2101 532 1600 669 2144 991"></polygon>
+                    <polygon stroke="#3ACDAB" stroke-width="1.51" fill="#3ACDAB" transform="translate(799.500000, 860.500000) rotate(-180.000000) translate(-799.500000, -860.500000) " points="911 782.865169 690 686 688 1035"></polygon>
+                    <polygon stroke="none" fill="#5ED6BB" transform="translate(1054.500000, 860.500000) rotate(-180.000000) translate(-1054.500000, -860.500000) " points="1198.91638 1036 1200 685 909 951"></polygon>
+                    <polygon stroke="#47CFAF" stroke-width="1.51" fill="#47CFAF" transform="translate(786.000000, 751.000000) rotate(-180.000000) translate(-786.000000, -751.000000) " points="914 941 884 561 658 816"></polygon>
+                    <polygon stroke="#5ED6BB" stroke-width="1.51" fill="#5ED6BB" transform="translate(463.500000, 414.000000) rotate(-180.000000) translate(-463.500000, -414.000000) " points="340 572 658 256 269 267"></polygon>
+                    <polygon stroke="#6CA3C6" stroke-width="1.51" fill="#6CA3C6" transform="translate(451.500000, 943.000000) rotate(-180.000000) translate(-451.500000, -943.000000) " points="226 952 903 1034 3.41060513e-13 852"></polygon>
+                    <polygon stroke="#5ED6BB" stroke-width="1.51" fill="#5ED6BB" transform="translate(470.500000, 812.000000) rotate(-180.000000) translate(-470.500000, -812.000000) " points="642 1034 911 741.100271 30 590"></polygon>
+                    <polygon stroke="#5ED6BB" stroke-width="1.51" fill="#76D7C1" transform="translate(505.000000, 780.250000) rotate(-180.000000) translate(-505.000000, -780.250000) " points="741 988.5 269 561 352 999.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
