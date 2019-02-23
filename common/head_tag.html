@@ -115,3 +115,31 @@
 <script type='text/x-handlebars' data-template-name='/connectors/below-site-header/category-header-widget'>
     {{mount-widget widget="category-header-widget"}}
 </script>
+<script type='text/x-handlebars' data-template-name='components/categories-and-latest-topics'>
+	<div class='categories'>
+	  {{categories-only categories=categories}}
+	</div>
+
+	<div class='column'>
+	        {{topic-list
+		      highlightLastVisited=true
+		      top=top
+		      showPosters=true
+		      category=category
+		      topics=topics
+		      discoveryList=true}}
+	</div>
+</script>
+<script type='text/x-handlebars' data-template-name='components/categories-only'>
+	{{#if categories}}
+	  <div class="category-boxes">
+	      {{#each categories as |c|}}
+		  <div style={{border-color c.color}} class="category-box category-{{c.name}}">
+			  {{category-title-link category=c}}
+			  <p>{{dir-span c.description_excerpt}}</p>
+		  </div>
+	      {{/each}}
+	  </div>
+	{{/if}}
+</script>
+
