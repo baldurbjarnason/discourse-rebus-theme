@@ -142,4 +142,16 @@
 	  </div>
 	{{/if}}
 </script>
+<script type='text/x-handlebars' data-template-name='mobile/components/categories-only'>
+	{{#if categories}}
+	  <div class="category-boxes">
+	      {{#each categories as |c|}}
+		  <div style={{border-color c.color}} class="category-box category-{{c.name}}">
+			  {{category-title-link category=c}}
+			  <p>{{dir-span c.description_excerpt}}</p>
+		  </div>
+	      {{/each}}
+	  </div>
+	{{/if}}
+</script>
 
