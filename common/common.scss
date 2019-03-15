@@ -487,6 +487,10 @@ div[class^="category-title-header"] {
       h1{
         float: left;
         padding: 0 1% 0 7%;
+	      
+        img {
+            max-width: 225px;
+        }
       }
 
       ul{
