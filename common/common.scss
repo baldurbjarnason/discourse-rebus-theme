@@ -160,10 +160,13 @@ nav.post-controls button.create {
   box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
 }
 #list-area .topic-list, #suggested-topics, .topic-list {
-  
+
   table {
       background-color: white;
       border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
   }
   thead {
     background-color: #00405e;
@@ -292,6 +295,7 @@ nav.post-controls button.create {
 }
 
 // Category Headers
+
 body.category-header[class*="category-"]{
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -335,6 +339,9 @@ div[class^="category-title-header"] {
  #main-outlet {
      padding-top: 20px;
  }
+}
+body[class*="archetype-"]{
+    background-image: none;
 }
 
 // Category Boxes
