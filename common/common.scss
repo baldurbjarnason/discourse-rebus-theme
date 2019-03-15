@@ -418,7 +418,7 @@ body[class*="archetype-"]{
 
       margin: auto;
       width: 40%;
-      padding: 38px 45px 38px 45px;
+      padding: 20px 45px;
       border-radius: 12px;
       font-family: 'Nunito Sans', sans-serif;
       z-index: 1;
@@ -436,6 +436,7 @@ body[class*="archetype-"]{
         font-size: 12pt;
       }
       .newsletter-form{
+          margin-bottom: 0px;
           input{
               width: 64%;
               border-radius: 3px;
