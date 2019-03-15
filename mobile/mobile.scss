@@ -34,15 +34,17 @@
   }
   // Category Header
   body.category-header[class*="category-"] {
-    @media screen and (max-width: 768px) {
-        background-position: 0 -225px;
-    }
-    @media screen and (min-width: 768px) {
-       background-position: 0 -275px;
-    }
+    background-size: auto, 400px;
+    background-position: -200px -250px;
   }
   div[class^="category-title-header"] {
-    margin-bottom: 225px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 125px;
+    }
+    @media screen and (min-width: 768px) {
+       margin-bottom: 100px;
+    }
+      
     .category-title-contents {
       left: 0;
       padding: 40px 25px 0 25px;
