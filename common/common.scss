@@ -136,13 +136,19 @@ nav.post-controls button.create {
 // Topic List
 
 #list-area .topic-list {
-  border-radius: 10px;
   -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
   -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
   box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
+}
+#list-area .topic-list, #suggested-topics, .topic-list {
+  
+  table {
+      background-color: white;
+      border-radius: 10px;
+  }
   thead {
     background-color: #00405e;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     text-transform: uppercase;
     th {
       color: white;
@@ -162,6 +168,14 @@ nav.post-controls button.create {
   tbody .topic-list-item:last-child {
     border-bottom: none;
   }
+}
+#suggested-topics .suggested-topics-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24pt;
+}
+#suggested-topics .suggested-topics-message {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
 }
 
 // Header Menu
@@ -338,6 +352,9 @@ div[class^="category-title-header"] {
     }
 }
 
+// Suggested Topics
+
+
 // Rebus Footer
 
 .rebus-footer{
@@ -470,10 +487,6 @@ div[class^="category-title-header"] {
       h1{
         float: left;
         padding: 0 1% 0 7%;
-     
-        img {
-            max-width: 225px;
-        }
       }
 
       ul{
