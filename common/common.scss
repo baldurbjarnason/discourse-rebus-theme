@@ -8,13 +8,6 @@ html {
   background-attachment:fixed;
   height:100%;
 }
-#main {
-    
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'PT Serif', serif;
-  font-weight: bold;
-}
 
 .topic-list-header {
     font-family: 'Nunito Sans', sans-serif;
@@ -231,6 +224,10 @@ nav.post-controls button.create {
 // Rebus Header
 
 .rebus-header .header-wrapper {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+    }
   margin-bottom: -350px;
   @media screen and (min-width: 1760px) {
     margin-bottom: -550px;
@@ -304,11 +301,15 @@ nav.post-controls button.create {
 body.category-header[class*="category-"]{
   background-attachment: scroll;
   background-repeat: no-repeat;
-    background-position: -500px -1100px;
+    background-position: 0 -225px;
     background-size: cover, 400px;
     height: 400px;
 }
 div[class^="category-title-header"] {
+  h1, h2, h3, h4, h5, h6 {
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+    }
   padding-top: 60px;
   display: flex;
   margin-bottom: 175px;
