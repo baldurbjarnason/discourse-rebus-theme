@@ -301,9 +301,16 @@ nav.post-controls button.create {
 body.category-header[class*="category-"]{
   background-attachment: scroll;
   background-repeat: no-repeat;
-    background-position: 0 -225px;
-    background-size: cover, 400px;
-    height: 400px;
+  background-size: 100%, 100%;
+  @media screen and (min-width: 1024px){
+    background-position: 0 0;
+  }
+  @media screen and (min-width: 1440px){
+    background-position: 0 -150px;
+  }
+  @media screen and (min-width: 2560px){
+    background-position: 0 -600px;
+  }
 }
 div[class^="category-title-header"] {
   h1, h2, h3, h4, h5, h6 {
