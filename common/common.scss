@@ -189,6 +189,16 @@ nav.post-controls button.create {
     border-bottom: none;
   }
 }
+.category-header #list-area .topic-list {
+    background: transparent;
+    border-radius: 10px;
+    thead {
+        background-color: #f3f2f2;
+        th {
+            color: #000;
+        }
+    }
+}
 #suggested-topics .suggested-topics-title {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 24pt;
@@ -228,12 +238,18 @@ nav.post-controls button.create {
         font-family: 'PT Serif', serif;
         font-weight: bold;
     }
-  margin-bottom: -350px;
+  margin-bottom: -400px;
   @media screen and (min-width: 1760px) {
+    margin-bottom: -600px;
+  }
+  @media screen and (min-width: 2300px) {
     margin-bottom: -550px;
   }
-  @media screen and (min-width: 2260px) {
-    margin-bottom: -425px;
+  @media screen and (min-width: 2560px) {
+    margin-bottom: -500px;
+  }
+  @media screen and (min-width: 2440px) {
+    margin-bottom: -450px;
   }
   .header-image {
     background-image: url($blue-background);
@@ -337,7 +353,7 @@ div[class^="category-title-header"] {
   margin-bottom: 175px;
   width: 100%;
   .category-title-contents {
-    padding: 75px 75px 0;
+    padding: 75px 0 0;
     .category-title-description {
       font-size: 12pt;
     }
@@ -534,6 +550,8 @@ body[class*="archetype-"]{
 	      
         img {
             max-width: 225px;
+            position: relative;
+            top: -5px;
         }
       }
 
