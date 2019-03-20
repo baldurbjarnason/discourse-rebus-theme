@@ -305,8 +305,23 @@ body.category-header[class*="category-"]{
   @media screen and (min-width: 1024px){
     background-position: 0 0;
   }
+  @media screen and (min-width: 1170px){
+    background-position: 0 -100px;
+  }
   @media screen and (min-width: 1440px){
     background-position: 0 -150px;
+  }
+  @media screen and (min-width: 1540px){
+    background-position: 0 -300px;
+  }
+  @media screen and (min-width: 1790px){
+    background-position: 0 -400px;
+  }
+  @media screen and (min-width: 2170px){
+    background-position: 0 -500px;
+  }
+  @media screen and (min-width: 2420px){
+    background-position: 0 -550px;
   }
   @media screen and (min-width: 2560px){
     background-position: 0 -600px;
