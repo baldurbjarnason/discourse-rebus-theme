@@ -466,13 +466,13 @@ body[class*="archetype-"]{
       }
       .newsletter-form{
           margin-bottom: 0px;
-          input{
+          input[type="email"]{
               width: 64%;
               border-radius: 3px;
               padding: 12px 0 13px 0;
               margin-right: 2%;
           }
-          button{
+          input[type="submit"]{
               width: 32%;
               padding: 14px 0 14px 0;
               border: 1px solid #cd4b18;
@@ -483,7 +483,7 @@ body[class*="archetype-"]{
               background-color: #cd4b18;
               color: #ffffff;
           }
-          button:hover{
+          input[type="submit"]:hover{
               background-color: white;
               color: #cd4b18;
           }
