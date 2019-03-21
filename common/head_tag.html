@@ -170,10 +170,10 @@
 	{{#if categories}}
 	  <div class="category-boxes">
 	      {{#each categories as |c|}}
-		  <div style={{border-color c.color}} class="category-box category-{{c.name}}">
-			  {{category-title-link category=c}}
-			  <p>{{dir-span c.description_excerpt}}</p>
-		  </div>
+	      <a href="/c/{{c.slug}}" class="category-box" style={{border-color c.color}}>
+    			  {{category-title-link category=c}}
+    			  <p>{{dir-span c.description_excerpt}}</p>
+		  </a>
 	      {{/each}}
 	  </div>
 	{{/if}}
@@ -182,10 +182,10 @@
 	{{#if categories}}
 	  <div class="category-boxes">
 	      {{#each categories as |c|}}
-		  <div style={{border-color c.color}} class="category-box category-{{c.name}}">
-			  {{category-title-link category=c}}
-			  <p>{{dir-span c.description_excerpt}}</p>
-		  </div>
+		  <a href="/c/{{c.slug}}" class="category-box" style={{border-color c.color}}>
+    			  {{category-title-link category=c}}
+    			  <p>{{dir-span c.description_excerpt}}</p>
+		  </a>
 	      {{/each}}
 	  </div>
 	{{/if}}
