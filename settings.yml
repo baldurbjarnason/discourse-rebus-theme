@@ -43,6 +43,10 @@ exceptions:
   type: list
   description: "Banner will not show for these categories"
   
+footer_menu_list:
+    default: "Link1|URL,Link2|URL2"
+    description: "Link|URL pairs separated by commas for footer menu" 
+  
 facebook_icon:
   default: "fab-facebook"
   description: "FontAwesome Icon for Facebook"
