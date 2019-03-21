@@ -42,3 +42,23 @@ exceptions:
   default: ""
   type: list
   description: "Banner will not show for these categories"
+  
+facebook_icon:
+  default: "fab-facebook"
+  description: "FontAwesome Icon for Facebook"
+
+youtube_icon:
+  default: "fab-youtube"
+  description: "FontAwesome Icon for YouTube"
+  
+twitter_icon:
+  default: "fab-twitter"
+  description: "FontAwesome Icon for Twitter"
+  
+creative_commons_icon:
+  default: "fab-creative-commons"
+  description: "FontAwesome Icon for Creative Commons"
+  
+creative_commons_by_icon:
+  default: "fab-creative-commons-by"
+  description: "FontAwesome Icon for Creative Commons By"
