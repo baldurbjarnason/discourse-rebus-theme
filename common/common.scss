@@ -564,6 +564,10 @@ body[class*="archetype-"]{
             padding: 0 4% 0 4%;
             float: left;
         }
+        li > a {
+            color: #000;
+            text-transform: uppercase;
+        }
       }
       .footer-community-links{
           width: 219px;
