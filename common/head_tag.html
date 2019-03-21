@@ -77,6 +77,25 @@
     return helper.h("div.header-links",
       helper.h("ul#nav-link-container", menu));
   });
+  
+  api.createWidget('footer-menu', {
+      tagName: "ul",
+      html(attrs){
+        const menu = [];
+        const menuItems = settings.footer_menu_list.split(",");
+        menuItems.forEach((item) => {
+          const menuItem = item.split("|");
+          menu.push(h("li",
+	        h("a", {
+	            href: menuItem[1],
+	            text: menuItem[0]
+	        })
+	      ));
+        });
+        
+        return menu;
+      }
+  });
 
   api.registerConnectorClass('below-site-header', 'rebus-header', {
     shouldRender(args, component) {
@@ -104,9 +123,9 @@
           component.set('showRebusFooter', false);
       });
       api.onPageChange((url, title) => {
-          if (url == "/") {
-	    component.set("showRebusFooter", true);
-	  }
+        if (url == "/") {
+	        component.set("showRebusFooter", true);
+	    }
       });
     }
   });
@@ -187,12 +206,7 @@
         </div>
         <div class="footer-content">
           <h1><img src="https://rebus.procourse.co/uploads/default/original/1X/b9fa53d75ccba6d6a78e5d748a8ba50f2c5b3af7.png" alt="Rebus Community" id="site-logo" class="logo-big"></h1>
-          <ul>
-              <li>ABOUT</li>
-              <li>RESOURCES</li>
-              <li>PROJECTS</li>
-              <li>QUESTIONS & HELP</li>
-          </ul>
+          {{mount-widget widget='footer-menu'}}
             <div class="footer-community-links">
                 <div class="footer-links">
                     <a href="https://www.youtube.com/channel/UC1bXNhf66CdCqWWYtE5L0-A">
