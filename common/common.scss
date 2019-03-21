@@ -400,7 +400,10 @@ body[class*="archetype-"]{
                 text-transform: uppercase;
                 a { color: #000000;}
             }
-            p { text-align: center; }
+            p { 
+                color: #000000;
+                text-align: center; 
+            }
 	    .category-box-inner {
 	        border: none;
 		padding: 0;
