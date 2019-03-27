@@ -9,8 +9,10 @@ html {
   height:100%;
 }
 
+.category-header, .navigation-categories {
 #main-outlet{
     padding-top: 1em;
+}
 }
 .topic-list-header {
     font-family: 'Nunito Sans', sans-serif;
@@ -241,7 +243,7 @@ nav.post-controls button.create {
         font-family: 'PT Serif', serif;
         font-weight: bold;
     }
-  margin-bottom: -400px;
+  margin-bottom: -550px;
   @media screen and (min-width: 1760px) {
     margin-bottom: -600px;
   }
@@ -274,14 +276,14 @@ nav.post-controls button.create {
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: -550px;
+    top: -600px;
     z-index: 10;
     @media screen and (min-width: 1760px) {
-      top: -700px;
+      top: -800px;
     }
     .info-column {
+      top: -10px;
       width: 53%;
-      margin-right: 17%;
       h1 {
         font-size: 30pt;
       }
@@ -289,7 +291,7 @@ nav.post-controls button.create {
     .cta-column {
       position: relative;
       text-align: center;
-      top: -30px;
+      top: 100px;
       width: 30%;
       p {
         font-size: 14pt;
@@ -598,4 +600,10 @@ body[class*="archetype-"]{
           }
       }
   }
+}
+
+//Link styling in homepage banner//
+.info-column a {
+    text-decoration: underline;
+    color: #14405E;
 }
