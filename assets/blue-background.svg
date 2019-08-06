@@ -1,1 +1,114 @@
-<svg viewBox="0 0 1440 576" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="m0 0h1440v470.3355l-230 62.6645-729 43-481-82z"/><mask id="b" fill="#fff"><use fill="none" xlink:href="#a"/></mask></defs><g fill="none" fill-rule="nonzero"><use fill="#d8d8d8" xlink:href="#a"/><g mask="url(#b)"><g stroke-width="1.51"><path d="m1767 531-346-531-166 313z" fill="#78bfd8" stroke="#78bfd8" transform="matrix(-1 0 0 -1 2592 73)"/><path d="m1601 645-62-645-284 114z" fill="#76bdd6" stroke="#76bdd6" transform="matrix(-1 0 0 -1 2426 187)"/><path d="m1055 645 262-219-324-426z" fill="#80c3db" stroke="#80c3db" transform="matrix(-1 0 0 -1 1880 187)"/><path d="m1643 876-326-345 42 459z" fill="#5fa7c7" stroke="#5fa7c7" transform="matrix(-1 0 0 -1 2530 1063)"/><path d="m2054 218-453 50 287 263z" fill="#66aecc" stroke="#66aecc" transform="matrix(-1 0 0 -1 3225 291)"/><path d="m1317 729-286-84-117 125z" fill="#6badcb" stroke="#6badcb" transform="matrix(-1 0 0 -1 1801 957)"/><path d="m1601 481 84 375 453-50z" fill="#539bbf" stroke="#539bbf" transform="matrix(-1 0 0 -1 3309 879)"/><path d="m1238 686 79-467-403 41z" fill="#77b9d4" stroke="#77b9d4" transform="matrix(-1 0 0 -1 1801 447)"/><path d="m658 686 335-342-256-125z" fill="#7ebdd7" stroke="#7ebdd7" transform="matrix(-1 0 0 -1 1221 447)"/><path d="m1644 770-733 44 445.21477 221z" fill="#599dc0" stroke="#599dc0" transform="matrix(-1 0 0 -1 2125 1347)"/><path d="m1642 864-442-219 325 344z" fill="#5ea3c5" stroke="#5ea3c5" transform="matrix(-1 0 0 -1 2412 1176)"/><path d="m993 524-71-305-335 342z" fill="#8ac7de" stroke="#8ac7de" transform="matrix(-1 0 0 -1 1150 322)"/><path d="m2101 532-501 137 544 322z" fill="#4e96bc" stroke="#4e96bc" transform="matrix(-1 0 0 -1 3314 1065)"/><path d="m911 782.865169-221-96.865169-2 349z" fill="#68a4c6" stroke="#68a4c6" transform="matrix(-1 0 0 -1 1169 1263)"/></g><path d="m1198.91638 1036 1.08362-351-291 266z" fill="#67a6c7" transform="matrix(-1 0 0 -1 1679 1263)"/><path d="m914 941-30-380-226 255z" fill="#73afce" stroke="#73afce" stroke-width="1.51" transform="matrix(-1 0 0 -1 1142 1044)"/><path d="m340 572 318-316-389 11z" fill="#88c2db" stroke="#88c2db" stroke-width="1.51" transform="matrix(-1 0 0 -1 497 370)"/><path d="m226 952 677 82-903-182z" fill="#6ca3c6" stroke="#6ca3c6" stroke-width="1.51" transform="matrix(-1 0 0 -1 473 1428)"/><path d="m642 1034 269-292.899729-881-151.100271z" fill="#77aecd" stroke="#77aecd" stroke-width="1.51" transform="matrix(-1 0 0 -1 511 1166)"/><path d="m741 988.5-472-427.5 83 438.5z" fill="#7ab3d1" stroke="#7ab3d1" stroke-width="1.51" transform="matrix(-1 0 0 -1 580 1102.5)"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 576" style="enable-background:new 0 0 1440 576;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D8D8D8;}
+	.st1{filter:url(#Adobe_OpacityMaskFilter);}
+	.st2{fill:none;}
+	.st3{mask:url(#b_1_);}
+	.st4{fill:#78BFD8;stroke:#78BFD8;stroke-width:1.51;}
+	.st5{fill:#76BDD6;stroke:#76BDD6;stroke-width:1.51;}
+	.st6{fill:#80C3DB;stroke:#80C3DB;stroke-width:1.51;}
+	.st7{fill:#5FA7C7;stroke:#5FA7C7;stroke-width:1.51;}
+	.st8{fill:#66AECC;stroke:#66AECC;stroke-width:1.51;}
+	.st9{fill:#6BADCB;stroke:#6BADCB;stroke-width:1.51;}
+	.st10{fill:#539BBF;stroke:#539BBF;stroke-width:1.51;}
+	.st11{fill:#77B9D4;stroke:#77B9D4;stroke-width:1.51;}
+	.st12{fill:#7EBDD7;stroke:#7EBDD7;stroke-width:1.51;}
+	.st13{fill:#599DC0;stroke:#599DC0;stroke-width:1.51;}
+	.st14{fill:#5EA3C5;stroke:#5EA3C5;stroke-width:1.51;}
+	.st15{fill:#8AC7DE;stroke:#8AC7DE;stroke-width:1.51;}
+	.st16{fill:#4E96BC;stroke:#4E96BC;stroke-width:1.51;}
+	.st17{fill:#68A4C6;stroke:#68A4C6;stroke-width:1.51;}
+	.st18{fill:#67A6C7;}
+	.st19{fill:#73AFCE;stroke:#73AFCE;stroke-width:1.51;}
+	.st20{fill:#88C2DB;stroke:#88C2DB;stroke-width:1.51;}
+	.st21{fill:#6CA3C6;stroke:#6CA3C6;stroke-width:1.51;}
+	.st22{fill:#77AECD;stroke:#77AECD;stroke-width:1.51;}
+	.st23{fill:#7AB3D1;stroke:#7AB3D1;stroke-width:1.51;}
+	.st24{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st26{mask:url(#mask-2_2_);}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M0,0h1440v470.3L1210,533l-729,43L0,494V0z"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-430.1" y="-459.7" width="2146.1" height="1037.8">
+			<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="-430.1" y="-459.7" width="2146.1" height="1037.8" id="b_1_">
+		<g class="st1">
+			<path id="a_1_" class="st2" d="M0,0h1440v470.3L1210,533l-729,43L0,494V0z"/>
+		</g>
+	</mask>
+	<g class="st3">
+		<g>
+			<path class="st4" d="M825-458l346,531l166-313L825-458z"/>
+			<path class="st5" d="M825-458l62,645l284-114L825-458z"/>
+			<path class="st6" d="M825-458L563-239l324,426L825-458z"/>
+			<path class="st7" d="M887,187l326,345l-42-459L887,187z"/>
+			<path class="st8" d="M1171,73l453-50l-287-263L1171,73z"/>
+			<path class="st9" d="M484,228l286,84l117-125L484,228z"/>
+			<path class="st10" d="M1708,398l-84-375l-453,50L1708,398z"/>
+			<path class="st11" d="M563-239l-79,467l403-41L563-239z"/>
+			<path class="st12" d="M563-239L228,103l256,125L563-239z"/>
+			<path class="st13" d="M481,577l733-44L768.8,312L481,577z"/>
+			<path class="st14" d="M770,312l442,219L887,187L770,312z"/>
+			<path class="st15" d="M157-202l71,305l335-342L157-202z"/>
+			<path class="st16" d="M1213,533l501-137L1170,74L1213,533z"/>
+			<path class="st17" d="M258,480.1L479,577l2-349L258,480.1z"/>
+		</g>
+		<path class="st18" d="M480.1,227L479,578l291-266L480.1,227z"/>
+		<path class="st19" d="M228,103l30,380l226-255L228,103z"/>
+		<path class="st20" d="M157-202l-318,316l389-11L157-202z"/>
+		<path class="st21" d="M247,476l-677-82l903,182L247,476z"/>
+		<path class="st22" d="M-131,132l-269,292.9L481,576L-131,132z"/>
+		<path class="st23" d="M-161,114l472,427.5L228,103L-161,114z"/>
+	</g>
+</g>
+<g id="Page-1">
+	<g id="BG---Blue-Pattern">
+		<g id="Mask">
+			<polygon class="st0" points="0,0 1440,0 1440,470.3 1210,533 481,576 0,494 			"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-430.1" y="-459.7" width="2146.1" height="1037.8">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="-430.1" y="-459.7" width="2146.1" height="1037.8" id="mask-2_2_">
+			<g class="st24">
+				<polygon id="path-1_2_" class="st25" points="0,0 1440,0 1440,470.3 1210,533 481,576 0,494 				"/>
+			</g>
+		</mask>
+		<g id="BG-Pattern" class="st26">
+			<g id="Shape" transform="translate(-430.000000, -458.000000)">
+				<polygon class="st4" points="1255,0 1601,531 1767,218 				"/>
+				<polygon class="st5" points="1255,0 1317,645 1601,531 				"/>
+				<polygon class="st6" points="1255,0 993,219 1317,645 				"/>
+				<polygon class="st7" points="1317,645 1643,990 1601,531 				"/>
+				<polygon class="st8" points="1601,531 2054,481 1767,218 				"/>
+				<polygon class="st9" points="914,686 1200,770 1317,645 				"/>
+				<polygon class="st10" points="2138,856 2054,481 1601,531 				"/>
+				<polygon class="st11" points="993,219 914,686 1317,645 				"/>
+				<polygon class="st12" points="993,219 658,561 914,686 				"/>
+				<polygon class="st13" points="911,1035 1644,991 1198.8,770 				"/>
+				<polygon class="st14" points="1200,770 1642,989 1317,645 				"/>
+				<polygon class="st15" points="587,256 658,561 993,219 				"/>
+				<polygon class="st16" points="1643,991 2144,854 1600,532 				"/>
+				<polygon class="st17" points="688,938.1 909,1035 911,686 				"/>
+				<polygon class="st18" points="910.1,685 909,1036 1200,770 				"/>
+				<polygon class="st19" points="658,561 688,941 914,686 				"/>
+				<polygon class="st20" points="587,256 269,572 658,561 				"/>
+				<polygon class="st21" points="677,934 0,852 903,1034 				"/>
+				<polygon class="st22" points="299,590 30,882.9 911,1034 				"/>
+				<polygon class="st23" points="269,572 741,999.5 658,561 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
