@@ -14,6 +14,9 @@ You will require the Discourse password, and your user will be plain old 'root'
 > rails c  # wait for the prompt, it's slow and entering something before will fail
 [n] pry(main)> SiteSetting.content_security_policy=false
 ```
+
+*where [n] is some number, to my knowledge it's simply the number of the command, incremented on each command you make*
+
 You might be able to add some stuff to SiteSetting.content_security_policy_script_srcs and allow whatever the holdup is (looks like mailchimp?). I'm just not clear why it's working on your current site.
 
 Maybe also 
