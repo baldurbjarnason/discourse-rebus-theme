@@ -640,6 +640,10 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
 div.categories .category-boxes a.category-box[href='/c/contributor-marketplace'] {
     display: none;
 }
+/*Remove Open Textbooks container*/
+div.categories .category-boxes a.category-box[href='/c/open-textbooks-in-development'] {
+    display: none;
+}
 /*CFP page styles*/
 .tags-page #main-outlet {
     padding-top: 411px;
