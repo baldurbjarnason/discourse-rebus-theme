@@ -170,40 +170,72 @@
 <script type='text/x-handlebars' data-template-name='components/categories-only'>
 	{{#if categories}}
 	  <div class="category-boxes">
-	      {{#each categories as |c|}}
-	      <a href="/c/{{c.slug}}" class="category-box" style={{border-color c.color}}>
-    			  {{category-title-link category=c}}
-    			  <p>{{dir-span c.description_excerpt}}</p>
-		  </a>
-	      {{/each}}
+	      <a href="/c/get-started" class="category-box" style="border-color: #FFC857">
+                  <h3>Getting started</h3>
+                  <p>Introduce yourself, meet other members, read the community guidelines, and learn about the platform.</p>
+              </a>
 	      <a href="https://www1.rebus.community/#/open-textbook-directory" class="category-box" style="border-color: #048A81">
     			  <h3>Open Textbook Directory</h3>
     			  <p>Start an open textbook project, browse in-progress open textbooks, and share new releases.</p>
-	      </a>
+		  </a>
+	      <a href="/c/textbook-success-program" class="category-box" style="border-color: #3BCEAC">
+    			  <h3>Textbook Success Program</h3>
+    			  <p>Learn more about our professional development package for OER creators and project managers. The first few cohorts are underway.</p>
+		  </a>
 	      <a href="/tags/cfp" class="category-box" style="border-color: #37B5B5">
     			  <h3>Contributor Marketplace</h3>
     			  <p>Post or respond to calls for authoring, editing, reviewing, and more. Brainstorm about new open textbook projects.</p>
 		  </a>
+	      <a href="/c/help-questions" class="category-box" style="border-color: #F5A623">
+    			  <h3>Help & Questions</h3>
+    			  <p>Give and receive advice about publishing open textbooks and OER in general. Post questions or feedback about the platform.</p>
+		  </a>
+	      <a href="/c/news-discussion-events" class="category-box" style="border-color: #CD4B18">
+    			  <h3>News, Discussion, Events</h3>
+    			  <p>Share your announcements, news, and upcoming events. Start a discussion on the OER theme of your choice.</p>
+		  </a><!--
+	      {{#each categories as |c|}}
+	      <a href="/c/{{c.slug}}" class="category-box {{c.slug}}" style={{border-color c.color}}>
+    			  {{category-title-link category=c}}
+    			  <p>{{dir-span c.description_excerpt}}</p>
+		  </a>
+	      {{/each}}--> 
 	  </div>
 	{{/if}}
 </script>
 <script type='text/x-handlebars' data-template-name='mobile/components/categories-only'>
 	{{#if categories}}
 	  <div class="category-boxes">
-	      {{#each categories as |c|}}
-		  <a href="/c/{{c.slug}}" class="category-box" style={{border-color c.color}}>
-    			  {{category-title-link category=c}}
-    			  <p>{{dir-span c.description_excerpt}}</p>
-		  </a>
-	      {{/each}}
+	      <a href="/c/get-started" class="category-box" style="border-color: #FFC857">
+                  <h3>Getting started</h3>
+                  <p>Introduce yourself, meet other members, read the community guidelines, and learn about the platform.</p>
+              </a>
 	      <a href="https://www1.rebus.community/#/open-textbook-directory" class="category-box" style="border-color: #048A81">
     			  <h3>Open Textbook Directory</h3>
     			  <p>Start an open textbook project, browse in-progress open textbooks, and share new releases.</p>
-	      </a>
+		  </a>
+	      <a href="/c/textbook-success-program" class="category-box" style="border-color: #3BCEAC">
+    			  <h3>Textbook Success Program</h3>
+    			  <p>Learn more about our professional development package for OER creators and project managers. The first few cohorts are underway.</p>
+		  </a>
 	      <a href="/tags/cfp" class="category-box" style="border-color: #37B5B5">
     			  <h3>Contributor Marketplace</h3>
     			  <p>Post or respond to calls for authoring, editing, reviewing, and more. Brainstorm about new open textbook projects.</p>
-	      </a>
+		  </a>
+	      <a href="/c/help-questions" class="category-box" style="border-color: #F5A623">
+    			  <h3>Help & Questions</h3>
+    			  <p>Give and receive advice about publishing open textbooks and OER in general. Post questions or feedback about the platform.</p>
+		  </a>
+	      <a href="/c/news-discussion-events" class="category-box" style="border-color: #CD4B18">
+    			  <h3>News, Discussion, Events</h3>
+    			  <p>Share your announcements, news, and upcoming events. Start a discussion on the OER theme of your choice.</p>
+		  </a><!--
+	      {{#each categories as |c|}}
+	      <a href="/c/{{c.slug}}" class="category-box {{c.slug}}" style={{border-color c.color}}>
+    			  {{category-title-link category=c}}
+    			  <p>{{dir-span c.description_excerpt}}</p>
+		  </a>
+	      {{/each}}-->
 	  </div>
 	{{/if}}
 </script>
