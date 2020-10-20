@@ -612,8 +612,20 @@ body[class*="archetype-"]{
     color: #14405E;
 }
 /*Top banner background and links*/
+body[class*="category-news-discussion-events"] {
+    background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/eab263529cbe3895f6b92e1ccdb8b9e079c4709b.svg);
+}
+body[class*="category-textbook-success-program"] {
+    background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/97ec94005ceb7f587a664a7678459898a2ee8b70.svg);
+}
+body[class*="category-get-started"], body[class*="category-help-questions"] {
+    background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/0a9049918ba7ad4eab261fead7018800ad1636bc.svg);
+}
 body[class*="category-open-textbooks-in-development"] {
     background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/69035ad77786283d74dd6731025a5d47e560cafc.svg);
+}
+body[class*="archetype-regular"] {
+    background-image: none;
 }
 body[class*="category-open-textbooks-in-development"] div.cooked a {
     color: #ffffff;
@@ -635,14 +647,6 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
     padding: 0;
     border-radius: inherit;
     transform: translateY(0);
-}
-/*Remove MarketPlace container*/
-div.categories .category-boxes a.category-box[href='/c/contributor-marketplace'] {
-    display: none;
-}
-/*Remove Open Textbooks container*/
-div.categories .category-boxes a.category-box[href='/c/open-textbooks-in-development'] {
-    display: none;
 }
 /*CFP page styles*/
 .tags-page #main-outlet {
