@@ -668,6 +668,7 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
 }
 .tags-page.tag-cfp #main-outlet::before {
     content: 'Contributor Marketplace';
+    background-image: url($blue-background);
     width: 100%;
     display: table;
     left: 0;
