@@ -621,7 +621,7 @@ body[class*="archetype-"]{
 .get-started, .help-questions {
     background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/0a9049918ba7ad4eab261fead7018800ad1636bc.svg);
 }
-body[class*="category-open-textbooks-in-development"] {
+.open-textbooks-in-development {
     background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/69035ad77786283d74dd6731025a5d47e560cafc.svg);
 }
 body[class*="archetype-regular"] {
@@ -668,7 +668,6 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
 }
 .tags-page.tag-cfp #main-outlet::before {
     content: 'Contributor Marketplace';
-    background-image: url($blue-background);
     width: 100%;
     display: table;
     left: 0;
