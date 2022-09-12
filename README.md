@@ -1,5 +1,8 @@
 # discourse-rebus-theme
 
+## Overview
+This is the theme used for the Rebus Community forum.
+
 ## Info from Jay for restore:
 
 I went in and changed SiteSetting.content_security_policy=false
