@@ -390,9 +390,9 @@ body[class*="archetype-"]{
 
 // Category Boxes
 
-.categories-and-latest, .category-list, #header-list-area, #list-area {
-    .category-boxes, .category-boxes-with-topics, .categories, .categories-only-category {
-        .category-box, .category {
+.categories-and-latest, #header-list-area {
+    .category-boxes, .category-list {
+        .category-box, .categories-only-category {
             border-radius: 5px;
             -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
             -moz-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
