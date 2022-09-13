@@ -391,7 +391,7 @@ body[class*="archetype-"]{
 // Category Boxes
 
 .categories-and-latest, #header-list-area, #header-list {
-    .category-boxes {
+    .category-boxes, .category-boxes-with-topics {
         .category-box {
             border-radius: 5px;
             -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
