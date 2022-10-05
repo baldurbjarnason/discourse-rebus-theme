@@ -613,16 +613,16 @@ body[class*="archetype-"]{
 }
 /*Top banner background and links*/
 .news-discussion-events {
-  background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/eab263529cbe3895f6b92e1ccdb8b9e079c4709b.svg);
+  background-image: url($orange_background);
 }
 .textbook-success-program {
-    background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/97ec94005ceb7f587a664a7678459898a2ee8b70.svg);
+    background-image: url($turquoise_background);
 }
 .get-started, .help-questions {
-    background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/0a9049918ba7ad4eab261fead7018800ad1636bc.svg);
+    background-image: url($yellow_background);
 }
 .open-textbooks-in-development {
-    background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/business4/uploads/rebus_new/original/1X/69035ad77786283d74dd6731025a5d47e560cafc.svg);
+    background-image: url($turquoise_background);
 }
 body[class*="archetype-regular"] {
     background-image: none;
