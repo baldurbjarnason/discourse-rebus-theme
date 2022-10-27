@@ -6,7 +6,8 @@
     "blue_background": "assets/blue-background.svg", 
     "turquoise_background": "assets/turquoise-background.svg", 
     "yellow_background": "assets/yellow-background.svg", 
-    "orange_background": "assets/orange-background.svg" 
+    "orange_background": "assets/orange-background.svg", 
+    "rc_logo": "assets/rebus_community_2lines.svg"
   },
    "color_schemes": {
        "Rebus Default": {
