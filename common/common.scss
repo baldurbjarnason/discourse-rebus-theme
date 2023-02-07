@@ -362,6 +362,7 @@ div[class^="category-title-header"] {
   display: flex;
   margin-bottom: 175px;
   width: 100%;
+  justify-content: space-around;
   .category-title-contents {
     padding: 75px 0 0;
     .category-title-description {
