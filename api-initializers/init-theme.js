@@ -1,21 +1,23 @@
 import { apiInitializer } from "discourse/lib/api";
+import {h} from "virtual-dom";
+import {iconNode} from "discourse-common/lib/icon-library";
 
 export default apiInitializer((api) => {
 	const container = Discourse.__container__;    
-	const { h } = require('virtual-dom');
-	const { iconNode } = require("discourse-common/lib/icon-library");
+	// const { h } = require('virtual-dom');
+	// const { iconNode } = require("discourse-common/lib/icon-library");
 	let lockIcon = iconNode('lock');
 
 	api.onPageChange((url, title) => {
-          const parsed = new URL(url, window.location.href);
-          if (parsed.pathname == "/") {
-            api.decorateCooked($elem => $elem.children('.discourse-root').addClass('rebus-front-page'));
-	        document.documentElement.classList.remove("rebus-sub-page");
-	      } else {
-	        document.documentElement.classList.add("rebus-sub-page");
-	          
-	      }
-      });
+      const parsed = new URL(url, window.location.href);
+      if (parsed.pathname == "/") {
+        api.decorateCooked($elem => $elem.children('.discourse-root').addClass('rebus-front-page'));
+      document.documentElement.classList.remove("rebus-sub-page");
+    } else {
+      document.documentElement.classList.add("rebus-sub-page");
+        
+    }
+  });
     
 	// api.createWidget('category-header-widget', {
 	// 	tagName: 'span', 
