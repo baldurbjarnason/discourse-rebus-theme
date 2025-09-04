@@ -3,11 +3,13 @@ import {h} from "virtual-dom";
 import {iconNode} from "discourse-common/lib/icon-library";
 
 export default apiInitializer((api) => {
-	const container = Discourse.__container__;    
+	
+  console.log("Current user is", api.getCurrentUser());
+	// const container = Discourse.__container__;    
 	// const { h } = require('virtual-dom');
 	// const { iconNode } = require("discourse-common/lib/icon-library");
 	let lockIcon = iconNode('lock');
-
+	console.log("initialising");
 	api.onPageChange((url, title) => {
       const parsed = new URL(url, window.location.href);
       console.log(parsed);
