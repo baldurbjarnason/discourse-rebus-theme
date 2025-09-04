@@ -798,7 +798,7 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
     margin-bottom: -450px;
   }
   .header-image {
-    background-image: url($blue-component-background);
+    background-image: url($blue-background);
     background-repeat: no-repeat;
     background-size: cover, 400px;
     display: block;
@@ -879,7 +879,7 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
 
 .rebus-component-footer{
     .rebus-footer-image{
-        background-image: url($blue-component-background);
+        background-image: url($blue-background);
         background-repeat: no-repeat;
         background-size: cover;
         height: 325px;
