@@ -10,6 +10,7 @@ export default apiInitializer((api) => {
 
 	api.onPageChange((url, title) => {
       const parsed = new URL(url, window.location.href);
+      console.log(parsed);
       if (parsed.pathname == "/") {
         api.decorateCooked($elem => $elem.children('.discourse-root').addClass('rebus-front-page'));
       document.documentElement.classList.remove("rebus-sub-page");
