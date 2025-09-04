@@ -391,11 +391,13 @@ body[class*="archetype-"]{
 
 // Category Boxes
 
-.categories-and-latest, #header-list-area {
-    .category-boxes {
+.category-boxes {
       grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
       aspect-ratio: 2.5;
+}
 
+.categories-and-latest, #header-list-area {
+    .category-boxes {
         .category-box {
             border-radius: 5px;
             -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.10);
