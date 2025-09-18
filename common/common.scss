@@ -722,6 +722,9 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
 .welcome-banner__wrap {
   padding: 0;
 }
+.welcome-banner__wrap .btn {
+  border: none;
+}
 
 @media (max-width: 900px) {
     .custom-header-links {
