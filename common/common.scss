@@ -435,6 +435,10 @@ body[class*="archetype-"]{
   .category-box {
     border-left-width: 0px;
     border-top-width: var(--d-category-border-accent-width);
+    .category-box-inner {
+        border-left-width: var(--d-category-border-box-width);
+        border-top-width: 0;
+    }
   }
 }
 
