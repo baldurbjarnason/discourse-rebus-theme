@@ -431,6 +431,13 @@ body[class*="archetype-"]{
     }
 }
 
+.category-boxes {
+  .category-box {
+    border-left-width: 0px;
+    border-top-width: var(--d-category-border-accent-width);
+  }
+}
+
 // Rebus Footer
 
 .rebus-footer{
@@ -724,6 +731,10 @@ body.archetype-regular[class*="category-open-textbooks-in-development"] div.cook
 }
 .welcome-banner__wrap .btn {
   border: none;
+}
+
+.welcome-banner {
+  display: none;
 }
 
 @media (max-width: 900px) {
