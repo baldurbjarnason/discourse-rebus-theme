@@ -5,7 +5,7 @@ $rebus-blue: #007ab8;
 html {
 	font-family: "Nunito Sans", sans-serif;
 	background: linear-gradient(transparent, rgba(0, 122, 184, 0.025));
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	height: 100%;
 }
 
@@ -412,6 +412,43 @@ body[class*="archetype-"] {
 .category-boxes {
 	grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
 	aspect-ratio: 2.5;
+}
+
+.category-boxes-with-topics, .category-boxes {
+	.category-box {
+		border-radius: 5px;
+		-webkit-box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.1);
+		border-left-width: 0px;
+		border-top-width: 10px;
+		display: block;
+		height: 200px;
+		padding: 35px 20px;
+		width: auto;
+		h3 {
+			font-family: "Nunito Sans", sans-serif;
+			font-size: 12pt;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			a {
+				color: #000000;
+			}
+		}
+		p {
+			color: #000000;
+			text-align: center;
+		}
+		.category-box-inner {
+			border: none;
+			padding: 0;
+		}
+		.description {
+			color: #000000;
+		}
+	}
+}
+
 }
 
 .categories-and-latest,
