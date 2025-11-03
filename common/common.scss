@@ -424,7 +424,6 @@ body[class*="archetype-"] {
 		border-left-width: 0px;
 		border-top-width: 10px;
 		display: block;
-		height: 200px;
 		padding: 35px 20px;
 		width: auto;
 		h3 {
@@ -1171,7 +1170,7 @@ body {
 	}
 }
 
-#related-topics .topic-list,
+/* #related-topics .topic-list,
 #related-topics .topic-list .topic-list-header,
 #related-topics .topic-list .topic-list-header .topic-list-data,
 #related-topics .topic-list-body,
@@ -1183,4 +1182,4 @@ body {
 	--title-color: white;
 	--metadata-color: white;
 	--category-badge-title-color: white;
-}
+} */
