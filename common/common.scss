@@ -725,6 +725,13 @@ body.archetype-regular[class*="category-open-textbooks-in-development"]
 	border-radius: inherit;
 	transform: translateY(0);
 }
+
+body {
+	background-attachment: scroll;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
 /*CFP page styles*/
 .tags-page.tag-cfp #main-outlet {
 	padding-top: 411px;
