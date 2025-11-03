@@ -1186,3 +1186,7 @@ body {
 #related-topics .topic-list .topic-list-header .topic-list-data {
 	color: white;
 }
+
+#related-topics .topic-list-header::after {
+	display: none;
+}
