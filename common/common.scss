@@ -414,7 +414,8 @@ body[class*="archetype-"] {
 	aspect-ratio: 2.5;
 }
 
-.category-boxes-with-topics, .category-boxes {
+.category-boxes-with-topics,
+.category-boxes {
 	.category-box {
 		border-radius: 5px;
 		-webkit-box-shadow: 0px 0px 29px 1px rgba(0, 0, 0, 0.1);
@@ -447,8 +448,6 @@ body[class*="archetype-"] {
 			color: #000000;
 		}
 	}
-}
-
 }
 
 .categories-and-latest,
