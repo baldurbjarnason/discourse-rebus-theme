@@ -1,26 +1,24 @@
 import { apiInitializer } from "discourse/lib/api";
-import {h} from "virtual-dom";
-import {iconNode} from "discourse-common/lib/icon-library";
+import { iconNode } from "discourse-common/lib/icon-library";
 
 export default apiInitializer((api) => {
-	let lockIcon = iconNode('lock');
+	let lockIcon = iconNode("lock");
 	api.onPageChange((url, title) => {
-      const parsed = new URL(url, window.location.href);
-      if (parsed.pathname == "/") {
-        api.decorateCooked($elem => $elem.children('.discourse-root').addClass('rebus-front-page'));
-      document.documentElement.classList.remove("rebus-sub-page");
-    } else {
-      document.documentElement.classList.add("rebus-sub-page");
-        
-    }
-  });
-    
-	api.replaceIcon('d-liked', 'far-heart');
-	api.replaceIcon('notification.liked', 'far-heart');
-	api.replaceIcon('notification.liked_2', 'far-heart');
-	api.replaceIcon('notification.liked_many', 'far-heart');
+		const parsed = new URL(url, window.location.href);
+		if (parsed.pathname === "/") {
+			api.decorateCooked(($elem) =>
+				$elem.children(".discourse-root").addClass("rebus-front-page"),
+			);
+			document.documentElement.classList.remove("rebus-sub-page");
+		} else {
+			document.documentElement.classList.add("rebus-sub-page");
+		}
+	});
 
-
+	api.replaceIcon("d-liked", "far-heart");
+	api.replaceIcon("notification.liked", "far-heart");
+	api.replaceIcon("notification.liked_2", "far-heart");
+	api.replaceIcon("notification.liked_many", "far-heart");
 
 	// api.registerConnectorClass('below-site-header', 'rebus-header', {
 	// 	shouldRender(args, component) {
