@@ -367,6 +367,8 @@ body.category[class*="category-"] {
 	}
 }
 div[class^="category-title-header"] {
+	--category-banner-background: transparent;
+	--category-banner-color: #000;
 	h1,
 	h2,
 	h3,
@@ -378,7 +380,7 @@ div[class^="category-title-header"] {
 	}
 	padding-top: 60px;
 	display: flex;
-	margin-bottom: 175px;
+	margin-bottom: 100px;
 	width: 100%;
 	justify-content: space-around;
 	.category-title-contents {
@@ -1189,9 +1191,4 @@ body {
 
 #related-topics .topic-list-header::after {
 	display: none;
-}
-
-.category-title-header {
-	--category-banner-background: transparent;
-	--category-banner-color: #000;
 }
