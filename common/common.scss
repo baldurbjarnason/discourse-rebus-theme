@@ -1190,3 +1190,8 @@ body {
 #related-topics .topic-list-header::after {
 	display: none;
 }
+
+.category-title-header {
+	--category-banner-background: transparent;
+	--category-banner-color: #000;
+}
