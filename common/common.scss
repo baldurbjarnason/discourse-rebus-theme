@@ -366,7 +366,9 @@ body.category[class*="category-"] {
 		background-position: 0 -600px;
 	}
 }
-div[class^="category-title-header"] {
+body div[class^="category-title-header"] {
+	background: transparent;
+	color: #000;
 	--category-banner-background: transparent;
 	--category-banner-color: #000;
 	h1,
