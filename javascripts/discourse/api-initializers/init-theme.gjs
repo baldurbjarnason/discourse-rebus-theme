@@ -3,6 +3,7 @@ import Topic from "discourse/models/topic";
 import ConditionalLoadingSpinner from "discourse/components/conditional-loading-spinner";
 import TopicList from "discourse/components/topic-list";
 import Component from "@glimmer/component";
+import { tracked } from "@glimmer/tracking";
 
 export default apiInitializer((api) => {
 	api.onPageChange((url, title) => {
