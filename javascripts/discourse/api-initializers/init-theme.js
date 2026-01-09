@@ -1,4 +1,5 @@
 import { apiInitializer } from "discourse/lib/api";
+import TopicList from "discourse/components/topic-list";
 
 export default apiInitializer((api) => {
 	api.onPageChange((url, title) => {
@@ -12,6 +13,7 @@ export default apiInitializer((api) => {
 			document.documentElement.classList.add("rebus-sub-page");
 		}
 	});
+	api.renderInOutlet("below-discovery-categories", TopicList);
 
 	api.replaceIcon("d-liked", "far-heart");
 	api.replaceIcon("notification.liked", "far-heart");
