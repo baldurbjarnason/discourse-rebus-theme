@@ -1,7 +1,7 @@
 import { apiInitializer } from "discourse/lib/api";
 import Topic from "discourse/models/topic";
 import ConditionalLoadingSpinner from "discourse/components/conditional-loading-spinner";
-import TopicList from "discourse/components/topic-list";
+import TopicList from "discourse/components/topic-list/list";
 import Component from "@glimmer/component";
 import { tracked } from "@glimmer/tracking";
 import { action } from "@ember/object";
