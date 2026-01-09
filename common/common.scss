@@ -433,11 +433,17 @@ body[class*="archetype-"] {
 		.subcategories {
 			display: none;
 		}
+		.category-box-heading .badge-category__wrapper {
+			font-weight: bold;
+			white-space: normal;
+			font-weight: bold;
+		}
 		h3 {
 			font-family: "Nunito Sans", sans-serif;
 			font-size: 12pt;
 			letter-spacing: 1px;
 			text-transform: uppercase;
+			margin-below: 0.5rem;
 			a {
 				color: #000000;
 			}
