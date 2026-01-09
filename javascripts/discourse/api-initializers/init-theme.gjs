@@ -4,6 +4,7 @@ import ConditionalLoadingSpinner from "discourse/components/conditional-loading-
 import TopicList from "discourse/components/topic-list";
 import Component from "@glimmer/component";
 import { tracked } from "@glimmer/tracking";
+import { action } from "@ember/object";
 
 export default apiInitializer((api) => {
 	api.onPageChange((url, title) => {
