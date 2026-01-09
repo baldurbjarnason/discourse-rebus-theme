@@ -430,6 +430,9 @@ body[class*="archetype-"] {
 		display: block;
 		padding: 35px 20px;
 		width: auto;
+		.subcategories {
+			display: none;
+		}
 		h3 {
 			font-family: "Nunito Sans", sans-serif;
 			font-size: 12pt;
