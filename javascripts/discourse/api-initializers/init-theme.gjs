@@ -48,7 +48,7 @@ export default apiInitializer((api) => {
         }
 
         <template>
-            <div class="filtered-topics-list {{list_plugin_outlet}}">
+            <div class="filtered-topics-list">
               <div class="filtered-topics-list__wrapper">
 		            <div class="filtered-topics-list__header">
 		              <h2>Updates From the Community</h2>
