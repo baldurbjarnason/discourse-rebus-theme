@@ -1,8 +1,6 @@
 import { apiInitializer } from "discourse/lib/api";
-import { iconNode } from "discourse-common/lib/icon-library";
 
 export default apiInitializer((api) => {
-	let lockIcon = iconNode("lock");
 	api.onPageChange((url, title) => {
 		const parsed = new URL(url, window.location.href);
 		if (parsed.pathname === "/") {
@@ -15,8 +13,8 @@ export default apiInitializer((api) => {
 		}
 	});
 
-	// api.replaceIcon("d-liked", "far-heart");
-	// api.replaceIcon("notification.liked", "far-heart");
-	// api.replaceIcon("notification.liked_2", "far-heart");
-	// api.replaceIcon("notification.liked_many", "far-heart");
+	api.replaceIcon("d-liked", "far-heart");
+	api.replaceIcon("notification.liked", "far-heart");
+	api.replaceIcon("notification.liked_2", "far-heart");
+	api.replaceIcon("notification.liked_many", "far-heart");
 });
