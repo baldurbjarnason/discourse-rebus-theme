@@ -22,13 +22,7 @@ export default apiInitializer((api) => {
 	api.replaceIcon("notification.liked_2", "far-heart");
 	api.replaceIcon("notification.liked_many", "far-heart");
 	api.renderInOutlet("below-discovery-categories", class FilteredList extends Component{
-        @service store;
-        @service router;
-        @service siteSettings;
         @tracked filteredTopics = [];
-
-        @tracked categories = [];
-        @tracked tags = [];
 
         constructor() {
           super(...arguments);
