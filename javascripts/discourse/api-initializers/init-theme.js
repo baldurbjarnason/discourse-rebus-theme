@@ -15,8 +15,8 @@ export default apiInitializer((api) => {
 		}
 	});
 
-	api.replaceIcon("d-liked", "far-heart");
-	api.replaceIcon("notification.liked", "far-heart");
-	api.replaceIcon("notification.liked_2", "far-heart");
-	api.replaceIcon("notification.liked_many", "far-heart");
+	// api.replaceIcon("d-liked", "far-heart");
+	// api.replaceIcon("notification.liked", "far-heart");
+	// api.replaceIcon("notification.liked_2", "far-heart");
+	// api.replaceIcon("notification.liked_many", "far-heart");
 });
