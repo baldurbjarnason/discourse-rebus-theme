@@ -6,6 +6,8 @@ import Component from "@glimmer/component";
 import { tracked } from "@glimmer/tracking";
 import { action } from "@ember/object";
 
+const TOPIC_COUNT = 8;
+
 export default apiInitializer((api) => {
 	api.onPageChange((url, title) => {
 		const parsed = new URL(url, window.location.href);
@@ -37,7 +39,7 @@ export default apiInitializer((api) => {
           if (topicList) {
             (this.filteredTopics = topicList.slice(
               0,
-              20
+              TOPIC_COUNT
 						));
             return this.filteredTopics
           }
@@ -67,6 +69,5 @@ async function setupTopics(api) {
 	const featuredTopics = topics.topic_list.topics.map((topic) => {
 		return Topic.create(topic);
 	});
-	console.log(featuredTopics);
 	return featuredTopics;
 }
